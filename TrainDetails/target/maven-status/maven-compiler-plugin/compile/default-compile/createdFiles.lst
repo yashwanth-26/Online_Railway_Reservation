@@ -1,0 +1,7 @@
+com\train\details\model\UserRegistrationModel.class
+com\train\details\TrainDetailsApplication.class
+com\train\details\repositories\TrainDetailsRepository.class
+com\train\details\controller\TrainDetailsController.class
+com\train\details\repositories\UserRegistrationRepository.class
+com\train\details\service\UserRegistrationService.class
+com\train\details\model\TrainDetailsModel.class

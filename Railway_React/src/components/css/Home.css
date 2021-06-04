@@ -1,0 +1,142 @@
+.search {
+	position: relative;
+	background-position: right;
+	background-size: 100%;
+	background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: gainsboro;
+min-height: 100%;
+	min-width: 50%;
+    padding-top: 100px;
+
+}
+.search {
+	background-image: url('../images/pexels-rajat-jain-325200.jpg');
+}
+
+
+
+
+
+
+
+.form-container1{
+    background:black;
+     padding: 25px; 
+	 margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(143, 136, 136);
+	transition: 0.5s;
+	visibility: visible;
+	 width: 50vw; 
+	opacity: 0.8;
+}
+.form-control1 {
+	 height: 35px; 
+	width: 48%;
+	border-radius: 0;
+	background-color: #876f49;
+	color:black;
+	border-color: white;
+	border-width: 1.3px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+  }
+
+  .form-control1:not(active){
+	color:white;
+	
+ }
+
+ .form-control1:focus{
+	color:black;
+	background-color: white;
+ }
+
+ ::placeholder {
+	color: white;
+	opacity: 1;
+
+  }
+
+.h1tag{
+	color:#eb2f2f;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+.h5tag{
+	color:#0a0a0a;
+	text-align: center;
+}
+label{
+	color: rgb(247, 243, 243);
+}
+
+@media only screen and (max-width: 1050px) {
+
+	/*.paraimg1 {
+		background-image: url('../images/LOGO.png');	
+	}*/
+  
+	.form-container1{
+		width: 100%;
+	}
+	.form-container2{
+		width: 100%;
+	}}
+
+
+
+	.text {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 20px;
+		color: aliceblue;
+	  }
+
+	  hr {
+		border:none;
+		border-top:0.5px dotted gray;
+		color:gray;
+		background-color:gray;
+		height:1px;
+		width:70%;
+	  }
+
+
+
+
+	  .form-container2{
+		background:black;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px 0px rgb(143, 136, 136);
+		transition: 0.5s;
+		visibility: visible;
+		 width: 50vw; 
+		opacity: 0.8;
+		margin:auto;
+	}
+	.form-control2 {
+		height: 20px;
+		width: 100%;
+		border-radius: 0;
+		background-color: #876f49;
+		color:black;
+		border-color: white;
+		border-width: 1.3px;
+		font-weight: bold;
+		font-size: 15px;
+		
+		text-align: center;
+	  }
+	
+	  .form-control2:not(active){
+		color:white;
+		
+	 }
+	
+	 .form-control2:focus{
+		color:black;
+		background-color: white;
+	 }

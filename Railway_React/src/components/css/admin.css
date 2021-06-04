@@ -1,0 +1,49 @@
+.tab {
+	position: relative;
+	background-position: right;
+	background-size: 100%;
+	background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: gainsboro;
+min-height: 100%;
+	min-width: 50%;
+    padding-top: 50px;
+    
+
+}
+
+.tab {
+	background-image: url('../images/pexels-rajat-jain-325200.jpg');
+}
+
+
+.border{
+    
+    padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px 0px rgb(143, 136, 136);
+		border-color: rgb(0, 17, 255);
+		
+		
+}
+th{
+    color: rgb(208, 230, 15);
+    text-align: center;
+} 
+td{
+    text-align: center;
+}
+.form-cont{
+	background:black;
+	padding: 70px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0px rgb(143, 136, 136);
+	transition: 0.5s;
+	visibility: visible;
+	 width: 50vw; 
+	opacity: 0.8;
+	margin:auto;
+}
+.pad{
+	padding-top: 100px;
+}
